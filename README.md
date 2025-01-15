@@ -52,7 +52,8 @@ or download the ZIP file and extract it to a directory of your choice.
 
 
 ## Usage
-Now, every time your PC is switched on, the PC_ON_NOTIFIER.exe will execute, and you’ll receive a Discord notification!
+Now, every time your PC is switched on, the PC_ON_NOTIFIER.exe will execute, and you’ll receive a Discord notification!<br>
+Sometimes you may need to configure the firewall to not block this application.
 
 ## Contribution
 Contributions are welcome! Feel free to fork this repository and submit a pull request with your enhancements.

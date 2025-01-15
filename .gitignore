@@ -5,6 +5,10 @@ build/
 dist/
 wheels/
 *.egg-info
+main.spec
+PC_ON_NOTIFIER.bat
+PC_ON_NOTIFIER.exe
+
 
 # Virtual environments
 .venv

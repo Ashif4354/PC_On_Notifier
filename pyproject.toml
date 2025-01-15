@@ -6,4 +6,11 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "httpx>=0.28.1",
+    "pyinstaller>=6.11.1",
 ]
+
+[dependency-groups]
+dev = [
+    "auto-py-to-exe>=2.45.1",
+]
+

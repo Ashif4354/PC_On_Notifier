@@ -5,7 +5,7 @@ from asyncio import run
 
 async def main():
     async with AsyncClient() as client:
-        discord_url: str = ""
+        discord_url: str = "" # Discord Webhook URL goes here
         
         date_time_now: datetime = datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)
 

@@ -30,7 +30,7 @@ or download the ZIP file and extract it to a directory of your choice.
 ### Step 3: Set Up Discord Webhook
 * Obtain a Discord webhook URL
     * select the Server
-    * under the desired text channel, select Edit Channel (gear icon) 
+    * Under the desired text channel, select Edit Channel (gear icon) 
     * Select Integrations
     * Select Webhooks and click New Webhook. 
     * Edit the webhook data if you want & Copy the Webhook URL
@@ -61,4 +61,4 @@ Contributions are welcome! Feel free to fork this repository and submit a pull r
 This project is licensed under MIT License.
 
 ## Contact
-For questions or feedback, feel free to reach out 
+For questions or feedback, feel free to reach out.

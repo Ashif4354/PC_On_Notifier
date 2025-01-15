@@ -2,6 +2,9 @@
 
 PC ON Notifier is a simple yet powerful utility that notifies you via Discord whenever your Windows PC is switched on. This tool ensures you stay informed about your system's status with ease.  
 
+## Use Case
+This can be used to monitor if someone signs in to your PC without your knowledge. By receiving a Discord notification each time your PC starts, you can stay informed about any unauthorized access or suspicious activity on your system.
+
 ## Key Features  
 - **Built with Python**: The entire project is developed using Python, showcasing the flexibility and power of the language.  
 - **Discord Notifications**: Sends a custom notification to your Discord webhook when the PC starts.  

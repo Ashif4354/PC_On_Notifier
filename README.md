@@ -23,7 +23,7 @@ Other installation methods are available on the [official UV website](https://do
 ### Step 2: Clone the Repository 
 Make sure you have Git installed on your system. If not, you can download it from [here](https://git-scm.com/downloads).
 ```
-git clone 
+git clone https://github.com/Ashif4354/PC_On_Notifier
 ```
 or download the ZIP file and extract it to a directory of your choice.
 

@@ -15,9 +15,9 @@ PC ON Notifier is a simple yet powerful utility that notifies you via Discord wh
 ### Step 1: Install UV  
 1. Open PowerShell.  
 2. Run the following command:  
-```powershell
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
+    ```powershell
+    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+    ```
 Other installation methods are available on the [official UV website](https://docs.astral.sh/uv/getting-started/installation/).
 
 ### Step 2: Clone the Repository 
@@ -37,6 +37,7 @@ or download the ZIP file and extract it to a directory of your choice.
 
 * Open the main.py file in a text editor.
 * Paste the webhook URL between the double quotes in the designated section of the code. You can also customize the title, description, and color of the Discord embed if desired.
+
 * After editing the main.py file, save and close it.
 
 ### Step 4: Build the Executable
@@ -52,8 +53,9 @@ or download the ZIP file and extract it to a directory of your choice.
 
 
 ## Usage
-Now, every time your PC is switched on, the PC_ON_NOTIFIER.exe will execute, and you’ll receive a Discord notification!<br>
-Sometimes you may need to configure the firewall to not block this application.
+* Now, every time your PC is switched on, the PC_ON_NOTIFIER.exe will execute, and you’ll receive a Discord notification!<br>
+* This application requires internet access to send notifications to Discord.
+* Sometimes you may need to configure the firewall to not block this application.
 
 ## Contribution
 Contributions are welcome! Feel free to fork this repository and submit a pull request with your enhancements.

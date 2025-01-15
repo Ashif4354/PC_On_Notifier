@@ -1,5 +1,5 @@
 from httpx import AsyncClient
-from datetime import datetime, timezone, timedelta
+from datetime import datetime
 from asyncio import run
 
 
@@ -7,7 +7,7 @@ async def main() -> None:
     async with AsyncClient() as client:
         discord_url: str = "" # Discord Webhook URL goes here
         
-        date_time_now: datetime = datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)
+        date_time_now: datetime = datetime.now()
 
         data: dict = {
             "embeds": [
@@ -25,8 +25,8 @@ async def main() -> None:
 
         try:
             await client.post(discord_url, json=data, headers=headers)
-        except Exception as e:
-            print(e)
+        except Exception as _:
+            pass
 
 
 if __name__ == "__main__":

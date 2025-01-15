@@ -29,7 +29,7 @@ or download the ZIP file and extract it to a directory of your choice.
 
 ### Step 3: Set Up Discord Webhook
 * Obtain a Discord webhook URL
-    * select the Server
+    * Select the Server
     * Under the desired text channel, select Edit Channel (gear icon) 
     * Select Integrations
     * Select Webhooks and click New Webhook. 
@@ -41,7 +41,7 @@ or download the ZIP file and extract it to a directory of your choice.
 * After editing the main.py file, save and close it.
 
 ### Step 4: Build the Executable
-* After editing the main.py file, double-click the BUILD EXE.bat file. This will generate an executable file named PC_ON_NOTIFIER.exe in the same directory.
+* After editing the main.py file, double-click the `BUILD EXE.bat` file. This will generate an executable file named PC_ON_NOTIFIER.exe in the same directory.
 
 ### Step 5: Enable Startup Notification
 * Place the PC_ON_NOTIFIER.exe file in the Startup folder to ensure it runs automatically when your PC starts.
@@ -71,4 +71,6 @@ Contributions are welcome! Feel free to fork this repository and submit a pull r
 This project is licensed under MIT License.
 
 ## Contact
-For questions or feedback, feel free to reach out.
+* For questions or feedback, feel free to reach out.<br>
+* I am always ready to help.<br>
+* Contact details are available on my GitHub profile.

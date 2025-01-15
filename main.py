@@ -3,7 +3,7 @@ from datetime import datetime, timezone, timedelta
 from asyncio import run
 
 
-async def main():
+async def main() -> None:
     async with AsyncClient() as client:
         discord_url: str = "" # Discord Webhook URL goes here
         

@@ -14,7 +14,7 @@ async def main() -> None:
                 {
                     "title": "PC has been switched on!",
                     "description": "Date and Time: " + date_time_now.strftime("%d-%m-%Y %H:%M:%S"),
-                    "color": 0xFFFFFF
+                    "color": 0xFFFFFF # Only hexadecimals are allowed
                 }
             ]
         }

@@ -1,7 +1,7 @@
 uv sync
 call .venv/Scripts/activate
 
-pyinstaller --noconfirm --onefile --console --icon "assets\app_icon.ico" --clean  "main.py"
+pyinstaller --noconfirm --onefile --windowed --icon "assets\app_icon.ico" --clean  "main.py"
 
 del main.spec
 rmdir /s /q build 

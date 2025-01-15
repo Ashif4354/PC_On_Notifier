@@ -48,14 +48,21 @@ or download the ZIP file and extract it to a directory of your choice.
     * Press `Win + R` to open the Run dialog box.
     * Type `shell:startup` and press Enter.
     * Place the PC_ON_NOTIFIER.exe file in the Startup folder.
+    * Restart your PC.
 
 * The path to the Startup folder is typically `C:\Users\<user-name>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
 
 
 ## Usage
-* Now, every time your PC is switched on, the PC_ON_NOTIFIER.exe will execute, and you’ll receive a Discord notification!<br>
 * This application requires internet access to send notifications to Discord.
 * Sometimes you may need to configure the firewall to not block this application.
+* Now, every time your PC is switched on, the PC_ON_NOTIFIER.exe will execute, and you’ll receive a Discord notification!
+  #### Hiding the Application in the Startup Menu (Optional)
+  * When the application is in the Startup folder, it will appear in the Startup tab of the Task Manager or the Startup Apps menu in system settings.
+  * To prevent suspicion, simply rename the generated `PC_ON_NOTIFIER.exe` file to a commonly used system app name before placing it in the Startup folder.
+  * Some suggested names include `SystemUpdate.exe`, `DriverUtility.exe`, etc.
+  * After renaming the file, place it in the Startup folder as described in the installation steps. This will help ensure it blends seamlessly with other startup entries.
+
 
 ## Contribution
 Contributions are welcome! Feel free to fork this repository and submit a pull request with your enhancements.
